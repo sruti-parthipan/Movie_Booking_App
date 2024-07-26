@@ -1,0 +1,42 @@
+
+
+.seat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row-alphabet {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+
+  &:nth-child(7n) {
+    margin-right: 55px;
+  }
+
+ 
+}
+
+.selected {
+  background-color: #6ac3ae;
+  color: white;
+}
+
+screen{
+  text-align: center;
+  align-items: center;
+}

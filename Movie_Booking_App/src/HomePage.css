@@ -1,0 +1,88 @@
+
+.Home-page {
+ background-color: #fff;
+  font-family: 'YourChosenFont', sans-serif;
+  
+}
+
+
+.Top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: rgb(204, 124, 157);
+}
+
+.Top-bar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.Top-bar a:hover {
+  text-decoration: underline;
+}
+
+
+.hero-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 4px 2px 4px #000000;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box img {
+  max-width: 80%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: min-content;
+}
+
+
+.button {
+  display: inline-flex;
+  padding: 10px 20px;
+  background-color: #ff3366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+
+  /* Center the button */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background-color: #e6005c;
+}
+

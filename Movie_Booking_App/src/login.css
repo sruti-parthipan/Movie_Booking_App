@@ -1,0 +1,50 @@
+body.login-page {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://c0.wallpaperflare.com/preview/24/851/652/bowl-cinema-close-up-delicious.jpg');
+  background-size:cover;
+  background-position:var(400px);
+  font-family: 'Arial', sans-serif;
+
+
+}
+
+.content .Login-form{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(122, 8, 8, 0);
+  margin-top: 100px;
+  background-color: rgba(236, 5, 5, 0); 
+}
+
+.Login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login-form label {
+  margin-bottom: 10px;
+}
+
+.Login-form input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.Login-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #d32626;
+  border: none;
+  cursor: pointer;
+}
+
+.Login-form button:hover {
+  background-color: #0056b3;
+}
+
+.Login-form p {
+  margin-top: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.about-box {
+  border: 1px solid #629260;
+  padding: 20px;
+  margin-top: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgba(15, 15, 15, 0.4);
+  color: #333; 
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-box h2 {
+  color: #65f839;
+}
+
+.about-box p {
+  color: #d6f0cf;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact-box {
+  border: 1px solid #6ba1ce;
+  padding: 10px;
+  margin-top: 180px;
+  background-color: rgba(20, 20, 20,0.7);
+  color: #a5e0fd; 
+}
+
+.contact-box h3 {
+  color: #3498db;
+  text-align: center;
+}
+.contact-box p {
+  color: #93c5e4;
+  line-height: 1.5;
+}
